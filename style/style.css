@@ -1,0 +1,215 @@
+/* CSS Document */
+
+html
+{ height: 100%;}
+
+*
+{ margin: 0;
+  padding: 0;}
+
+body {
+    text-align:left;
+    background-color:#CCCFA6;
+    background:url(../background.jpg);
+    color:#000;
+    font-family:Verdana, Geneva, sans-serif;
+    font-size: 12px;
+    height: 100%;
+}
+
+#page {
+    margin-left: auto;
+    margin-right: auto;
+    width:750px;
+    min-height: 100%;
+}
+
+#container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 730px;
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+    min-height: 100%;
+    background-color: #FFF;
+}
+
+#content {
+    padding: 50px;
+    width: 630px;
+}
+
+label {
+    display: block;
+    width: 400px;
+    padding: 10px 0px 5px 0px;
+    font-weight: bold;
+    color: #000066;
+}
+
+h1 {
+    font-size:22px;
+    padding: 0 0 20px 0;
+    color: #000066;
+}
+
+h2 {
+    font-size: 16px;
+    padding: 5px 0 5px 0;
+    color: #333;
+}
+
+.button {
+    background-color: #AAA;
+    border-radius: 6px;
+    border: none;
+    color: #000;
+    font-weight: bold;
+}
+
+.button:hover {
+    background-color: #000066;
+    border-radius: 6px;
+    border: none;
+    color: #FFF;
+    font-weight: bold;
+}
+
+#go {
+    background-color: #000066;
+    color: #FFF;
+    padding: 7px;
+    margin-bottom: 30px;
+    width: 64.5%;        
+}
+
+table {
+    border: 1px solid #000;
+}
+
+table td, table th{
+    padding: 5px;
+    border: 1px solid #000;
+}
+
+table th {
+    padding: 5px;
+}
+
+p {
+    padding: 0 0 5px 0;
+}
+
+.center {
+    text-align: center;
+}
+
+.input_box {
+    background-color: #EEE;
+    padding: 3px ;
+    border: 1px solid #AAA;
+}
+
+textarea {
+    resize:none;
+    width: 505px;
+    height: 200px;
+}
+
+input[name="task"] {
+    width: 505px;
+}
+
+input[type="file"] {
+    width: 350px;
+    background-color: #EEEEEE;
+    padding: 0px ;
+    border: 0px solid #AAA;
+}
+
+#file{
+    padding: 25px 0 25px 0;
+}
+
+a.result {
+    display: block;
+    padding: 5px;
+    text-decoration: none;
+    font-size: 14px;
+    color: #000;
+    border: 1px solid #AAA;
+    background-color: #EEE;
+}
+
+.warning {
+    display: block;
+    font-size: 12px;
+    color: #ff0000;
+    font-weight: bold;
+    padding-top: 7px;
+}
+
+.quality {
+    padding: 0 0 0 0;
+}
+
+.quantity {
+    padding: 3px 0 0 25px;
+}
+
+.addremove {
+    padding: 5px 0 0 25px;
+}
+
+hr {
+    width: 400px;
+    margin: 5px 0 0 0;
+}
+
+.misc {
+    margin-top: 50px;
+    padding: 7px;
+    width: 200px;  
+}
+
+.add, .remove {
+    padding: 3px;
+    width: 127px;
+}
+
+#guidelines, #options {
+    display: none;
+    padding: 30px 0 0 0;
+}
+
+hr.left {
+    display: block;
+    margin-top: 12px;
+    float: left;
+    width: 420px;
+}
+
+.show {
+    float: left;
+    padding: 2px;
+    width: 200px;
+    background-color: #EEE;
+    border: 1px solid #AAA;
+}
+
+ul ul {
+    padding: 0 0 0 15px;
+}
+
+ul li {
+    padding: 4px 0 0 0;
+}
+
+table {
+    border: 0px solid #000;
+}
+
+table td, table th{
+    border: 0px solid #000;
+    padding: 5px 15px 5px 15px;
+}
